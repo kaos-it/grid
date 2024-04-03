@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-color: black; */
+    /* height: 100vh; */
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 500px;
+    display: grid;
+    grid-template-areas:
+    'bir bir  iki iki iki uc uc uc uc dord dord'
+    'bes bes  iki iki iki uc uc uc uc alti alti'
+    'yeddi  yeddi sekkiz doqquz doqquz uc uc uc uc on on'
+    'onbir onbir onbir onbir onbir uc uc uc uc oniki oniki';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    gap: 1px;
+}
+.container div {
+    border: 3px solid rgb(255, 255, 255);
+    
+
+    
+    
+}
+.container :nth-child(1) {
+    background-color: rgb(165, 42, 71);
+}
+.container :nth-child(2) {
+    background-color: rgb(141, 14, 115);
+}
+.container :nth-child(3) {
+    background-color: rgb(165, 87, 42);
+}
+.container :nth-child(4) {
+    background-color: rgb(204, 196, 35);
+}
+.container :nth-child(5) {
+    background-color: rgb(52, 165, 42);
+}
+.container :nth-child(6) {
+    background-color: rgb(42, 140, 165);
+}
+.container :nth-child(7) {
+    background-color: rgb(99, 165, 42);
+}
+.container :nth-child(8) {
+    background-color: rgb(22, 95, 27);
+}
+.container :nth-child(9) {
+    background-color: rgb(42, 165, 147);
+}
+.container :nth-child(10) {
+    background-color: rgb(42, 165, 99);
+}
+.container :nth-child(11) {
+    background-color: rgb(83, 42, 165);
+}
+.container :nth-child(12) {
+    background-color: rgb(152, 11, 44);
+}
